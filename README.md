@@ -12,6 +12,7 @@ Nesse desafio você colocará em prática o que aprendemos em relação a utiliz
 
 ## Como rodar
 
+- Clone o repositório
 - Basta rodar o projeto com o Docker Compose
 
 ```sh
