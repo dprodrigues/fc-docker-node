@@ -17,7 +17,7 @@ services:
       context: ./api
       dockerfile: Dockerfile
     container_name: api
-    entrypoint: wait-for db:3306 -t 40 -- node index.js
+    entrypoint: wait-for db:3306 -t 40 -- npm start
     volumes:
       - ./api:/home/node/api
     networks:
